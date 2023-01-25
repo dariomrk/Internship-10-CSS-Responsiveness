@@ -37,6 +37,7 @@
 
 .cross {
   display: none;
+  cursor: pointer;
 }
 
 .navigation-links {
