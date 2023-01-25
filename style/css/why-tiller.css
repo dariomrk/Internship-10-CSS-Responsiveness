@@ -1,0 +1,49 @@
+.why-tiller-container {
+  position: relative;
+  width: 375px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-tiller {
+  background-color: white;
+  width: 312px;
+  height: 312px;
+  padding: 24px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.why-tiller--light-green {
+  display: block;
+  height: 312px;
+  width: 336px;
+  background-color: var(--light-green);
+  position: absolute;
+  bottom: -24px;
+  left: 0px;
+}
+
+.why-tiller-button {
+  display: flex;
+  background-color: var(--blue);
+  color: white;
+  width: 128px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-tiller-triangle {
+  margin-top: 2px;
+  margin-left: 4px;
+  height: 6px;
+  border: 6px solid transparent;
+  border-left-color: white;
+}
+
+.why-tiller > img {
+  display: none;
+}

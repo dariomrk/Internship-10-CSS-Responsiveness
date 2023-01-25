@@ -1,66 +1,16 @@
-.hero {
-  font-family: "Times New Roman", Times, serif;
+.hero-container{
   position: relative;
-  color: white;
-  padding: 48px 24px;
-  max-width: 440px;
-  display: flex;
-  flex-direction: column;
+  height: 512px;
+  margin-bottom: 128px;
+}
+
+.header-hero {
+  padding: 0 24px;
   margin-left: auto;
   margin-right: auto;
-  z-index: -1;
-  top: 512px;
-}
-
-.why-tiller-block--white {
-  background-color: white;
-  padding: 32px;
-  color: black;
-  max-width: 440px;
-  position: absolute;
-  margin-right: 12px;
-  left: -24px;
-  bottom: -256px;
-  /* margin-left: auto;
-  margin-right: auto; */
-}
-
-.why-tiller-block--green {
-  background-color: var(--light-green);
-  position: absolute;
-  height: 250px;
-  width: 100vw;
-  max-width: 440px;
-  right: -12px;
-  bottom: calc(-256px - 32px);
-  z-index: -2;
-}
-
-.why-tiller-block--white > p {
-  font-family: Helvetica, sans-serif;
-}
-
-.button {
-  background-color: var(--blue);
-  width: 128px;
-  display: flex;
-  font-family: Helvetica, sans-serif;
+  position: sticky;
+  top: 128px;
   color: white;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero--triangle {
-  margin-top: 0px;
-  margin-left: 4px;
-  height: 6px;
-  border: 6px solid transparent;
-  border-left-color: white;
-}
-
-.why-tiller-block--white > img {
-  display: none;
-}
-
-@media screen and (min-width: 896px) {
+  max-width: 440px;
+  z-index: -1;
 }
