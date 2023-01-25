@@ -1,16 +1,39 @@
-.hero-container{
+.hero-container {
   position: relative;
   height: 512px;
   margin-bottom: 128px;
 }
 
 .header-hero {
-  padding: 0 24px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 24px;
   position: sticky;
   top: 128px;
   color: white;
   max-width: 440px;
   z-index: -1;
+}
+
+.header-hero > h1 {
+  max-width: 900px;
+}
+
+@media screen and (min-width: 900px) {
+  .hero-container {
+    margin-top: 128px;
+  }
+
+  .header-hero {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .hero-container{
+    margin-top: 256px;
+    height: 1024px;
+  }
 }

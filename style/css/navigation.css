@@ -106,7 +106,7 @@
 }
 
 /* Tablet & Desktop */
-@media screen and (min-width: 896px) {
+@media screen and (min-width: 900px) {
   .navigation {
     max-width: 1200px;
   }
