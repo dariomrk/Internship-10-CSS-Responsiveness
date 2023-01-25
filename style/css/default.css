@@ -1,18 +1,18 @@
 * {
-    font-family: Helvetica, sans-serif;
-    box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--blue-gray);
+  margin: 0;
+  padding: 0;
+  background-color: var(--blue-gray);
 }
 
 .wrapper {
-    max-width: 1200px;
+  max-width: 1200px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
