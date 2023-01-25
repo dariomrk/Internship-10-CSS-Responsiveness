@@ -49,3 +49,32 @@
 .why-tiller > img {
   display: none;
 }
+
+@media screen and (min-width: 900px)
+{
+  .why-tiller-container{
+    width: 100%;
+    max-width: 1148px;
+  }
+
+  .why-tiller{
+    width: 900px;
+    height: 356px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .why-tiller--light-green{
+    width: 960px;
+    height: 356px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .why-tiller > img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}
