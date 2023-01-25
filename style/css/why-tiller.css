@@ -8,8 +8,8 @@
 
 .why-tiller {
   background-color: white;
-  width: 312px;
-  height: 312px;
+  width: 350px;
+  height: 350px;
   padding: 24px;
   position: absolute;
   bottom: 0px;
@@ -19,25 +19,27 @@
 .why-tiller--light-green {
   display: block;
   height: 312px;
-  width: 336px;
+  width: 375px;
   background-color: var(--light-green);
   position: absolute;
-  bottom: -24px;
-  left: 0px;
+  bottom: -25px;
+  right: 0px;
 }
 
 .why-tiller-button {
+  margin-top: 32px;
+  padding: 32px;
   display: flex;
   background-color: var(--blue);
   color: white;
-  width: 128px;
+  width: 160px;
   height: 48px;
   justify-content: center;
   align-items: center;
 }
 
 .why-tiller-triangle {
-  margin-top: 2px;
+  margin-top: 0;
   margin-left: 4px;
   height: 6px;
   border: 6px solid transparent;
