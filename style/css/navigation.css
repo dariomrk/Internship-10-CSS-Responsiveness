@@ -1,5 +1,5 @@
+/* Mobile */
 .navigation {
-  /* position: fixed; */
   max-width: 440px;
   width: 100%;
   padding: 16px 24px;
@@ -41,6 +41,13 @@
   display: none;
 }
 
+.dropdown-triangle {
+  margin-top: 8px;
+  margin-left: 2px;
+  border: 6px solid transparent;
+  border-top-color: white;
+}
+
 #nav-toggle:checked ~ .navigation-links {
   position: absolute;
   width: 100vw;
@@ -66,6 +73,12 @@
 .navigation-link {
   padding-left: 24px;
   color: white;
+  display: flex;
+  align-items:center;
+}
+
+.navigation-link--button {
+  display: none;
 }
 
 .navigation-link-rule {
@@ -73,12 +86,38 @@
   opacity: 25%;
 }
 
+/* Tablet & Desktop */
 @media screen and (min-width: 896px) {
-    .navigation{
-        max-width: 1200px;
-    }
+  .navigation {
+    max-width: 1200px;
+  }
 
   .hamburger {
     display: none;
+  }
+
+  .navigation-links{
+    display: flex;
+  }
+
+  .navigation-link-rule {
+    display: none;
+  }
+
+  .navigation-link--button{
+    display: flex;
+    color: white;
+    margin-left: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--blue);
+  }
+
+  .triangle {
+    margin-top: 22px;
+    margin-left: 4px;
+    height: 8px;
+    border: 8px solid transparent;
+    border-left-color: white;
   }
 }
