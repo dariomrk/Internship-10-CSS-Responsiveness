@@ -1,7 +1,10 @@
 .navigation {
-  position: fixed;
+  /* position: fixed; */
+  max-width: 440px;
   width: 100%;
   padding: 16px 24px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,13 +24,13 @@
   background-color: white;
 }
 
-.angle-45{
-    transform: rotate(45deg);
+.angle-45 {
+  transform: rotate(45deg);
 }
 
-.angle-135{
-    margin-top: -2px;
-    transform: rotate(135deg);
+.angle-135 {
+  margin-top: -2px;
+  transform: rotate(135deg);
 }
 
 .cross {
@@ -41,19 +44,23 @@
 #nav-toggle:checked ~ .navigation-links {
   position: absolute;
   width: 100vw;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
   left: 0;
+  right: 0;
   top: 72px;
 }
 
 #nav-toggle:checked ~ .hamburger {
-    display: none;
+  display: none;
 }
 
 #nav-toggle:checked ~ .cross {
-    display: block;
+  display: block;
 }
 
 .navigation-link {
@@ -66,7 +73,11 @@
   opacity: 25%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 896px) {
+    .navigation{
+        max-width: 1200px;
+    }
+
   .hamburger {
     display: none;
   }
