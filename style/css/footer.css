@@ -38,6 +38,14 @@ footer {
   flex-direction: column;
 }
 
+.footer-links > a{
+  transition: all 200ms ease-in;
+}
+
+.footer-links > a:hover{
+  color: var(--light-green);
+}
+
 .--services {
 }
 
@@ -101,6 +109,11 @@ footer {
 .legal-items > a {
   padding-right: 16px;
   color: black;
+  transition: all 200ms ease-in;
+}
+
+.legal-items > a:hover {
+  color: var(--light-green);
 }
 
 @media screen and (min-width: 900px) {
