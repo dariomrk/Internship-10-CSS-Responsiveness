@@ -1,0 +1,141 @@
+footer {
+  border: 0;
+  padding-top: 24px;
+  background-color: white;
+}
+
+.footer-wrapper {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-sections > div > div > a {
+  padding-top: 8px;
+  color: black;
+}
+
+.footer-sections > div > div > a:first-child {
+  padding-top: 0;
+}
+
+.footer-logo {
+  display: none;
+}
+
+.footer-links {
+  padding-top: 16px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.--services {
+}
+
+.--company {
+}
+
+.--resources {
+}
+
+.--certificates {
+  display: none;
+}
+
+.contact-button {
+  display: flex;
+  border: 2px solid var(--blue);
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+  transition: all 200ms ease-in;
+  margin-bottom: 32px;
+}
+
+.contact-button:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+.contact-button:hover > .contact-button-triangle {
+  border-left-color: white;
+}
+
+.contact-button-triangle {
+  margin-top: 0;
+  margin-left: 4px;
+  height: 6px;
+  border: 6px solid transparent;
+  border-left-color: var(--blue);
+  transition: all 200ms ease-in;
+}
+
+.--contact-social {
+}
+
+.contact-social-badges {
+  padding: 24px 0;
+}
+
+.contact-social-badges > a {
+  padding-right: 16px;
+}
+
+.footer-legal {
+  padding-left: 0;
+}
+
+.legal-items{
+}
+
+.legal-items > a {
+  padding-right: 16px;
+  color: black;
+}
+
+@media screen and (min-width: 900px) {
+
+  .footer-wrapper{
+    max-width: 1200px;
+  }
+
+  .footer-sections{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .--certificates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+  .footer-logo{
+    display: block;
+    align-self: flex-start;
+  }
+
+  .footer-legal{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-legal > p{
+    padding-left: 16px;
+  }
+}
