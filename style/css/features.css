@@ -62,6 +62,7 @@
   .features-mobile-wrapper {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: start;
   }
 
   .features-item:first-child{
@@ -72,10 +73,19 @@
     margin-top: 0;
   }
 
+  .features-item >b {
+    display: inline-block;
+    max-width: 400px;
+  }
+
   .features-image-wrapper {
     display: block;
     position: sticky;
     top: 0;
     margin-right: 32px;
+  }
+
+  .features-image{
+    width: 400px;
   }
 }
