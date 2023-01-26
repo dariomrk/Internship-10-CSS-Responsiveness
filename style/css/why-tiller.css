@@ -54,21 +54,24 @@
 {
   .why-tiller-container{
     width: 100%;
-    max-width: 1148px;
+    max-width: 1200px;
   }
 
   .why-tiller{
-    width: 900px;
-    height: 356px;
+    width: calc(100% - 64px - 50px);
+    height: 350px;
+    margin-left: 32px;
     left: 0px;
     bottom: 0px;
   }
 
   .why-tiller--light-green{
-    width: 960px;
-    height: 356px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100% - 64px);
+    height: 350px;
     left: 0px;
-    bottom: 0px;
+    bottom: -50px;
   }
 
   .why-tiller > img {
