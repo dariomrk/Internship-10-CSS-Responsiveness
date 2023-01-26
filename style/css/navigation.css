@@ -46,6 +46,14 @@
   display: none;
 }
 
+.navigation-link:hover {
+  color: var(--light-green);
+}
+
+.navigation-link:hover > div {
+  border-top-color: var(--light-green);
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -119,7 +127,6 @@
 
   .navigation-links {
     display: flex;
-    /* position: relative; */
   }
 
   .navigation-link-rule {
@@ -133,6 +140,11 @@
     padding-left: 16px;
     padding-right: 16px;
     background-color: var(--blue);
+    transition: all 200ms ease-in;
+  }
+
+  .navigation-link--button:hover {
+    background-color: var(--light-green);
   }
 
   .navigation-button-triangle {

@@ -36,6 +36,11 @@
   height: 48px;
   justify-content: center;
   align-items: center;
+  transition: all 200ms ease-in;
+}
+
+.why-tiller-button:hover {
+  background-color: var(--light-green);
 }
 
 .why-tiller-triangle {
