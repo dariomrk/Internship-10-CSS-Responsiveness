@@ -37,7 +37,6 @@
 }
 
 @media screen and (min-width: 900px) {
-
   .partnerships {
     max-width: 1200px;
     margin-left: auto;
@@ -51,7 +50,7 @@
     white-space: nowrap;
   }
 
-  .carousel-item{
+  .carousel-item {
     min-width: 400px;
     margin-right: 24px;
   }

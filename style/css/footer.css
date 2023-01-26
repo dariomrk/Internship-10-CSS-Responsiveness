@@ -38,21 +38,12 @@ footer {
   flex-direction: column;
 }
 
-.footer-links > a{
+.footer-links > a {
   transition: all 200ms ease-in;
 }
 
-.footer-links > a:hover{
+.footer-links > a:hover {
   color: var(--light-green);
-}
-
-.--services {
-}
-
-.--company {
-}
-
-.--resources {
 }
 
 .--certificates {
@@ -88,9 +79,6 @@ footer {
   transition: all 200ms ease-in;
 }
 
-.--contact-social {
-}
-
 .contact-social-badges {
   padding: 24px 0;
 }
@@ -101,9 +89,6 @@ footer {
 
 .footer-legal {
   padding-left: 0;
-}
-
-.legal-items{
 }
 
 .legal-items > a {
@@ -117,38 +102,36 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-
-  .footer-wrapper{
+  .footer-wrapper {
     max-width: 1200px;
   }
 
-  .footer-sections{
+  .footer-sections {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 1000px){
-  .--certificates{
+@media screen and (min-width: 1000px) {
+  .--certificates {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 1200px)
-{
-  .footer-logo{
+@media screen and (min-width: 1200px) {
+  .footer-logo {
     display: block;
     align-self: flex-start;
   }
 
-  .footer-legal{
+  .footer-legal {
     display: flex;
     align-items: center;
   }
 
-  .footer-legal > p{
+  .footer-legal > p {
     padding-left: 16px;
   }
 }
